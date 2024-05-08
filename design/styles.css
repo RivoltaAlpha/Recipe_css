@@ -9,12 +9,12 @@ body{
 .img{
     border-radius: 15px;
     object-fit: contain;
-    width: 95%;
+    width: auto;
     align-items: center;
 }
 .prep{
 
-    background-color: rgba(255, 116, 188, 0.858);
+    background-color: rgba(255, 116, 188, 0.439);
     padding: 20px;
     border-radius: 15px;
     line-height: 2rem;
@@ -28,6 +28,10 @@ body{
 }
 .ingredients h2{
     color: rgb(212, 144, 105);
+}
+.ingredients ul li::marker{
+    color: rgb(212, 144, 105);
+    font-weight: bold;
 }
 .instructions span{
     color: black;
@@ -71,8 +75,13 @@ th, td{
 }
 td{
     color: rgba(191, 48, 48, 0.585);
+    font-weight: bold;
 }
 
 h1, h2 {
   font-family: 'Young Serif', serif; 
+}
+.instructions ol li::marker{
+    color: rgb(212, 144, 105);
+    font-weight: bold;
 }
